@@ -13,7 +13,7 @@ module.exports = {
         allowNull: false,
         references:{
           model: 'users',
-          key: 'idUser',
+          key: 'id',
         },
         onUpdate: 'cascade',
         onDelete: 'cascade',
@@ -23,7 +23,7 @@ module.exports = {
         allowNull: false,
         references:{
           model: 'users',
-          key: 'idUser',
+          key: 'id',
         },
         onUpdate: 'cascade',
         onDelete: 'cascade',
