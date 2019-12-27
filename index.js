@@ -6,7 +6,7 @@ const express = require('express')
 const cors = require('cors')
 //use express in app variable
 const app = express()
-const port = 5000
+const port = process.env.PORT || 5000
 // jwt middleware
 const { authenticated } =require('./middleware')
 //import controllers
